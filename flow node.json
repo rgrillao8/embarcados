@@ -1,0 +1,1348 @@
+[
+    {
+        "id": "16657018583827b6",
+        "type": "tab",
+        "label": "SII",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "2ba8bb5e7935c93b",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "rgrillao.duckdns.org",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "14e9b2a51730b487",
+        "type": "ui_group",
+        "name": "Gráficos",
+        "tab": "",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "a139738a6814e2a9",
+        "type": "ui_group",
+        "name": "Medição",
+        "tab": "",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "3c1b09fa4c168fdf",
+        "type": "ui_group",
+        "name": "grafico_mysql",
+        "tab": "",
+        "order": 4,
+        "disp": true,
+        "width": "18",
+        "collapse": false
+    },
+    {
+        "id": "6a4e2e67017b39e7",
+        "type": "ui_group",
+        "name": "Tabela mysql",
+        "tab": "",
+        "order": 5,
+        "disp": true,
+        "width": 11,
+        "collapse": false
+    },
+    {
+        "id": "daee4297f7442304",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-dark",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#3dd16e",
+                "baseFont": "Lucida Sans Unicode,Lucida Grande,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#097479",
+                    "value": "#3dd16e",
+                    "edited": true
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#3dd16e",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#7be09c",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#555555",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#eeeeee",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#3dd16e",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "Lucida Sans Unicode,Lucida Grande,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey",
+                "palette": "light"
+            }
+        },
+        "site": {
+            "name": "Node-RED Dashboard",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "79bb1b801c1cf4b5",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "rgrillao.duckdns.org",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "fefec708a84592bf",
+        "type": "ui_group",
+        "name": "Medição",
+        "tab": "",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "bf1ca90d38f6b289",
+        "type": "ui_group",
+        "name": "Group 1",
+        "tab": "",
+        "order": 1,
+        "disp": true,
+        "width": 6
+    },
+    {
+        "id": "d5128df60a03e322",
+        "type": "ui_group",
+        "name": "Graficos",
+        "tab": "",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "f9da5650e3108213",
+        "type": "MySQLdatabase",
+        "name": "",
+        "host": "127.0.0.1",
+        "port": "3306",
+        "db": "rayan",
+        "tz": "",
+        "charset": "UTF8"
+    },
+    {
+        "id": "392253e738087ba3",
+        "type": "MySQLdatabase",
+        "name": "",
+        "host": "172.31.82.140",
+        "port": "3306",
+        "db": "leituras_potenciometros",
+        "tz": "",
+        "charset": "UTF8"
+    },
+    {
+        "id": "dd885df6ad54c298",
+        "type": "ui_group",
+        "name": "tabela",
+        "tab": "",
+        "order": 1,
+        "disp": true,
+        "width": "10",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "d39ee3cf5ae58f01",
+        "type": "ui_tab",
+        "name": "Monitoramento da Qualidade da Agua",
+        "icon": "dashboard",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "534a7dd32e01c6ac",
+        "type": "ui_group",
+        "name": "Medição",
+        "tab": "d39ee3cf5ae58f01",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "64b05b108fe3a610",
+        "type": "ui_group",
+        "name": "Gráficos",
+        "tab": "d39ee3cf5ae58f01",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "086264041b4dcc8e",
+        "type": "ui_group",
+        "name": "Led's",
+        "tab": "d39ee3cf5ae58f01",
+        "order": 3,
+        "disp": true,
+        "width": "3",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "212526aca4500e2d",
+        "type": "ui_tab",
+        "name": "Monitoramento ",
+        "icon": "dashboard",
+        "order": 2,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "b38455a3f21f7ade",
+        "type": "ui_group",
+        "name": "Gráfico",
+        "tab": "212526aca4500e2d",
+        "order": 1,
+        "disp": true,
+        "width": "10",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "7851c27e9c51e685",
+        "type": "ui_group",
+        "name": "Tabela",
+        "tab": "212526aca4500e2d",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "d00fc8842f489ac4",
+        "type": "MySQLdatabase",
+        "name": "Loran_DB",
+        "host": "data-base-loran.cmrb6dtspj1m.us-east-1.rds.amazonaws.com",
+        "port": "3306",
+        "db": "nivel_tanques",
+        "tz": "21:09",
+        "charset": "UTF8"
+    },
+    {
+        "id": "eeaa1f57492ee439",
+        "type": "ui_spacer",
+        "z": "16657018583827b6",
+        "name": "spacer",
+        "group": "66aaecf742da4567",
+        "order": 2,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "7c05cabcf5c47134",
+        "type": "ui_spacer",
+        "z": "16657018583827b6",
+        "name": "spacer",
+        "group": "66aaecf742da4567",
+        "order": 4,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "568762aa4492d1a4",
+        "type": "ui_spacer",
+        "z": "16657018583827b6",
+        "name": "spacer",
+        "group": "66aaecf742da4567",
+        "order": 5,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "809f67379c017e72",
+        "type": "ui_spacer",
+        "z": "16657018583827b6",
+        "name": "spacer",
+        "group": "66aaecf742da4567",
+        "order": 6,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "dc2ba0ca5573f4b2",
+        "type": "ui_spacer",
+        "z": "16657018583827b6",
+        "name": "spacer",
+        "group": "66aaecf742da4567",
+        "order": 7,
+        "width": 9,
+        "height": 1
+    },
+    {
+        "id": "3b5298bc3bb360a2",
+        "type": "ui_spacer",
+        "z": "16657018583827b6",
+        "name": "spacer",
+        "group": "66aaecf742da4567",
+        "order": 9,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "c0ce983c9e908e0b",
+        "type": "ui_spacer",
+        "z": "16657018583827b6",
+        "name": "spacer",
+        "group": "66aaecf742da4567",
+        "order": 11,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "e340065885d8b453",
+        "type": "ui_spacer",
+        "z": "16657018583827b6",
+        "name": "spacer",
+        "group": "66aaecf742da4567",
+        "order": 12,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "88129dba1c30860d",
+        "type": "ui_spacer",
+        "z": "16657018583827b6",
+        "name": "spacer",
+        "group": "66aaecf742da4567",
+        "order": 13,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "63de3b06a014c511",
+        "type": "ui_spacer",
+        "z": "16657018583827b6",
+        "name": "spacer",
+        "group": "66aaecf742da4567",
+        "order": 14,
+        "width": 9,
+        "height": 1
+    },
+    {
+        "id": "bfa5e57bd2feebd1",
+        "type": "ui_spacer",
+        "z": "16657018583827b6",
+        "name": "spacer",
+        "group": "66aaecf742da4567",
+        "order": 16,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "eb3fda5fa7fb3947",
+        "type": "ui_spacer",
+        "z": "16657018583827b6",
+        "name": "spacer",
+        "group": "66aaecf742da4567",
+        "order": 18,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "f7f5bfa7bf6bb0e0",
+        "type": "ui_spacer",
+        "z": "16657018583827b6",
+        "name": "spacer",
+        "group": "66aaecf742da4567",
+        "order": 19,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "8bdc745d080e3df4",
+        "type": "ui_spacer",
+        "z": "16657018583827b6",
+        "name": "spacer",
+        "group": "66aaecf742da4567",
+        "order": 20,
+        "width": "2",
+        "height": "2"
+    },
+    {
+        "id": "66aaecf742da4567",
+        "type": "ui_group",
+        "name": "Indicadores ",
+        "tab": "",
+        "order": 2,
+        "disp": true,
+        "width": 9,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "dfb5a7c1e48eddd2",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "wilianjr.duckdns.org",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "0b153c8bce25f9e8",
+        "type": "MySQLdatabase",
+        "name": "",
+        "host": "127.0.0.1",
+        "port": "3306",
+        "db": "nomedobanco",
+        "tz": "",
+        "charset": "UTF8"
+    },
+    {
+        "id": "831a4ca641f2d9a4",
+        "type": "comment",
+        "z": "16657018583827b6",
+        "name": "Leitura analógica",
+        "info": "",
+        "x": 140,
+        "y": 40,
+        "wires": []
+    },
+    {
+        "id": "d3ee3b64ccd07dd0",
+        "type": "ui_gauge",
+        "z": "16657018583827b6",
+        "name": "Teor de Cloro",
+        "group": "534a7dd32e01c6ac",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "Teor de Cloro",
+        "label": "mg/L",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "1",
+        "colors": [
+            "#d40808",
+            "#e6e600",
+            "#06a210"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 420,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "b705c3309e3a443d",
+        "type": "ui_chart",
+        "z": "16657018583827b6",
+        "name": "Teor de Cloro",
+        "group": "64b05b108fe3a610",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "label": "Teor de Cloro",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm",
+        "interpolate": "step",
+        "nodata": "",
+        "dot": false,
+        "ymin": "0",
+        "ymax": "1",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1e28b3",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 420,
+        "y": 340,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "7651d1cc7c5610af",
+        "type": "function",
+        "z": "16657018583827b6",
+        "name": "Turn On LED",
+        "func": "var teordecloroValue = msg.payload;\n\nif (teordecloroValue >= 0.2 && teordecloroValue <= 0.5) {\n    // LED Verde\n    msg.payload = true;\n    msg.color = \"#00ff00\"; // Cor verde\n} else {\n    // LED Vermelho\n    msg.payload = false;\n    msg.color = \"#ff0000\"; // Cor vermelha\n}\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 410,
+        "y": 300,
+        "wires": [
+            [
+                "9a28809ecae2952e"
+            ]
+        ]
+    },
+    {
+        "id": "9f58b3bcd43af5c2",
+        "type": "mqtt in",
+        "z": "16657018583827b6",
+        "name": "",
+        "topic": "esp32/teordecloro",
+        "qos": "1",
+        "datatype": "auto",
+        "broker": "2ba8bb5e7935c93b",
+        "nl": false,
+        "rap": false,
+        "inputs": 0,
+        "x": 130,
+        "y": 340,
+        "wires": [
+            [
+                "7651d1cc7c5610af",
+                "b705c3309e3a443d",
+                "d3ee3b64ccd07dd0"
+            ]
+        ]
+    },
+    {
+        "id": "f8c732463e5fad2f",
+        "type": "function",
+        "z": "16657018583827b6",
+        "name": "Temperatura",
+        "func": "var ph = msg.payload;\n\nmsg.ph = ph;\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 410,
+        "y": 460,
+        "wires": [
+            [
+                "c71ff1783ef75398"
+            ]
+        ]
+    },
+    {
+        "id": "622baf2751b4ef7a",
+        "type": "function",
+        "z": "16657018583827b6",
+        "name": "Umidade",
+        "func": "var teordecloro = msg.payload;\n\nmsg.teordecloro = teordecloro;\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 420,
+        "y": 520,
+        "wires": [
+            [
+                "c71ff1783ef75398"
+            ]
+        ]
+    },
+    {
+        "id": "c71ff1783ef75398",
+        "type": "join",
+        "z": "16657018583827b6",
+        "name": "",
+        "mode": "custom",
+        "build": "object",
+        "property": "payload",
+        "propertyType": "msg",
+        "key": "topic",
+        "joiner": "\\n",
+        "joinerType": "str",
+        "accumulate": false,
+        "timeout": "",
+        "count": "2",
+        "reduceRight": false,
+        "reduceExp": "",
+        "reduceInit": "",
+        "reduceInitType": "",
+        "reduceFixup": "",
+        "x": 590,
+        "y": 520,
+        "wires": [
+            [
+                "ab2fd6eadb95acb4"
+            ]
+        ]
+    },
+    {
+        "id": "ab2fd6eadb95acb4",
+        "type": "delay",
+        "z": "16657018583827b6",
+        "name": "",
+        "pauseType": "rate",
+        "timeout": "5",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 750,
+        "y": 520,
+        "wires": [
+            [
+                "b7f55e14b62cdfce"
+            ]
+        ]
+    },
+    {
+        "id": "b7f55e14b62cdfce",
+        "type": "function",
+        "z": "16657018583827b6",
+        "name": "INSERT",
+        "func": "var ph = msg.payload['esp32/ph'] || 0;\nvar teordecloro = msg.payload['esp32/teordecloro'] || 0;\n\nmsg.topic = \"INSERT INTO vasco (ph, teordecloro, timeStamp) VALUES (\" + ph + \", \" + teordecloro + \", CURRENT_TIMESTAMP);\"\n\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 930,
+        "y": 520,
+        "wires": [
+            [
+                "31f939d89942372c"
+            ]
+        ]
+    },
+    {
+        "id": "5db62ac13c19b426",
+        "type": "mqtt in",
+        "z": "16657018583827b6",
+        "name": "",
+        "topic": "esp32/ph",
+        "qos": "1",
+        "datatype": "auto",
+        "broker": "2ba8bb5e7935c93b",
+        "nl": false,
+        "rap": false,
+        "inputs": 0,
+        "x": 100,
+        "y": 460,
+        "wires": [
+            [
+                "f8c732463e5fad2f"
+            ]
+        ]
+    },
+    {
+        "id": "96d37330aa432006",
+        "type": "mqtt in",
+        "z": "16657018583827b6",
+        "name": "",
+        "topic": "esp32/teordecloro",
+        "qos": "1",
+        "datatype": "auto",
+        "broker": "2ba8bb5e7935c93b",
+        "nl": false,
+        "rap": false,
+        "inputs": 0,
+        "x": 130,
+        "y": 520,
+        "wires": [
+            [
+                "622baf2751b4ef7a"
+            ]
+        ]
+    },
+    {
+        "id": "31f939d89942372c",
+        "type": "mysql",
+        "z": "16657018583827b6",
+        "mydb": "f9da5650e3108213",
+        "name": "conexao_mysql",
+        "x": 1060,
+        "y": 620,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "3055b9cb1d8844ea",
+        "type": "mysql",
+        "z": "16657018583827b6",
+        "mydb": "f9da5650e3108213",
+        "name": "conexao_mysql",
+        "x": 440,
+        "y": 800,
+        "wires": [
+            [
+                "f3ecf475c6728230"
+            ]
+        ]
+    },
+    {
+        "id": "cf04f552e75288c0",
+        "type": "function",
+        "z": "16657018583827b6",
+        "name": "DELET",
+        "func": "\nmsg.topic = \"Delete  FROM vasco ;\"\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 260,
+        "y": 800,
+        "wires": [
+            [
+                "3055b9cb1d8844ea"
+            ]
+        ]
+    },
+    {
+        "id": "f3ecf475c6728230",
+        "type": "debug",
+        "z": "16657018583827b6",
+        "name": "dados mysql",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 630,
+        "y": 800,
+        "wires": []
+    },
+    {
+        "id": "c61e0a19744c2aec",
+        "type": "inject",
+        "z": "16657018583827b6",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 100,
+        "y": 800,
+        "wires": [
+            [
+                "cf04f552e75288c0"
+            ]
+        ]
+    },
+    {
+        "id": "a0ff0c68b6309f56",
+        "type": "comment",
+        "z": "16657018583827b6",
+        "name": "Mysql: Select últimos 10 dados para grafico e tabela",
+        "info": "",
+        "x": 210,
+        "y": 700,
+        "wires": []
+    },
+    {
+        "id": "ad39b3bc973b0513",
+        "type": "inject",
+        "z": "16657018583827b6",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "60",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 110,
+        "y": 640,
+        "wires": [
+            [
+                "49cdc0e5dc6e11bc"
+            ]
+        ]
+    },
+    {
+        "id": "49cdc0e5dc6e11bc",
+        "type": "function",
+        "z": "16657018583827b6",
+        "name": "SELECT",
+        "func": "msg.topic = \"SELECT ph as ph, teordecloro as teordecloro, timestamp as timeStamp FROM vasco where timeStamp >= now() - 84600;\"\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 260,
+        "y": 640,
+        "wires": [
+            [
+                "8e0c68c7f4348705"
+            ]
+        ]
+    },
+    {
+        "id": "8e0c68c7f4348705",
+        "type": "mysql",
+        "z": "16657018583827b6",
+        "mydb": "f9da5650e3108213",
+        "name": "conexao_mysql",
+        "x": 440,
+        "y": 640,
+        "wires": [
+            [
+                "e6992bf0bf397892"
+            ]
+        ]
+    },
+    {
+        "id": "e6992bf0bf397892",
+        "type": "change",
+        "z": "16657018583827b6",
+        "name": "Format data",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "(\t  $series := [\t    { \"label\": \"ph (pH)\", \"field\": \"tph\" },\t    { \"label\": \"teordecloro (mg/L)\", \"field\": \"teordecloro\" }\t  ];\t  $xaxis := \"timeStamp\";\t  [\t    {\t      \"series\": $series.label,\t      \"data\": $series.[\t        (\t          $yaxis := $.field;\t          $$.payload.{\t            \"x\": $lookup($, $xaxis),\t            \"y\": $lookup($, $yaxis)\t          }\t        )\t      ]\t    }\t  ]\t)",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 630,
+        "y": 640,
+        "wires": [
+            [
+                "0753760c5537a2b6"
+            ]
+        ]
+    },
+    {
+        "id": "0753760c5537a2b6",
+        "type": "ui_chart",
+        "z": "16657018583827b6",
+        "name": "24 hours data",
+        "group": "b38455a3f21f7ade",
+        "order": 1,
+        "width": "6",
+        "height": "6",
+        "label": "Temperatura e Umidade",
+        "chartType": "line",
+        "legend": "true",
+        "xformat": "HH:mm",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": "24",
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#078f05",
+            "#2d2da8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 820,
+        "y": 640,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "19660f0a2efc6bd5",
+        "type": "inject",
+        "z": "16657018583827b6",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "60",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 110,
+        "y": 740,
+        "wires": [
+            [
+                "5c3f5ca75e35891a"
+            ]
+        ]
+    },
+    {
+        "id": "5c3f5ca75e35891a",
+        "type": "function",
+        "z": "16657018583827b6",
+        "name": "SELECT",
+        "func": "\nmsg.topic = \"SELECT * FROM vasco ORDER BY timeStamp DESC LIMIT 10;\"\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 260,
+        "y": 740,
+        "wires": [
+            [
+                "37bb294b097cb6e4"
+            ]
+        ]
+    },
+    {
+        "id": "37bb294b097cb6e4",
+        "type": "mysql",
+        "z": "16657018583827b6",
+        "mydb": "f9da5650e3108213",
+        "name": "conexao_mysql",
+        "x": 440,
+        "y": 740,
+        "wires": [
+            [
+                "888796d1664559a1"
+            ]
+        ]
+    },
+    {
+        "id": "888796d1664559a1",
+        "type": "function",
+        "z": "16657018583827b6",
+        "name": "Formatar Dados",
+        "func": "const formattedData = [];\n\nmsg.payload.forEach((row) => {\n    const formattedRow = {\n        hora: row.timeStamp,\n        ph: row.ph,\n        teordecloro: row.teordecloro\n    };\n    formattedData.push(formattedRow);\n});\n\nmsg.payload = formattedData;\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 640,
+        "y": 740,
+        "wires": [
+            [
+                "f75087cbd155d238"
+            ]
+        ]
+    },
+    {
+        "id": "f75087cbd155d238",
+        "type": "ui_template",
+        "z": "16657018583827b6",
+        "group": "7851c27e9c51e685",
+        "name": "Tabela com style",
+        "order": 1,
+        "width": "6",
+        "height": "6",
+        "format": "<div layout=\"row\" layout-align=\"start center\">\n  <span flex>Hora</span>\n  <span flex>Temperatura</span>\n  <span flex>Umidade</span>\n  \n</div>\n<div layout=\"row\" layout-align=\"start center\" ng-repeat=\"row in msg.payload\">\n  <span flex style=\"color: yellow\">{{row.hora}}</span>\n  <span flex style=\"color: green\">{{row.temperatura}} </span>\n  <span flex style=\"color: blue\">{{row.umidade}} mg/L</span>\n  \n</div>",
+        "storeOutMessages": true,
+        "fwdInMessages": false,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 830,
+        "y": 740,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "33951e3fbd29a00a",
+        "type": "inject",
+        "z": "16657018583827b6",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "60",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 870,
+        "y": 440,
+        "wires": [
+            [
+                "b7f55e14b62cdfce"
+            ]
+        ]
+    },
+    {
+        "id": "2aa2f329a3d9fe6f",
+        "type": "mqtt in",
+        "z": "16657018583827b6",
+        "name": "",
+        "topic": "esp32/ph",
+        "qos": "1",
+        "datatype": "auto",
+        "broker": "2ba8bb5e7935c93b",
+        "nl": false,
+        "rap": false,
+        "inputs": 0,
+        "x": 120,
+        "y": 140,
+        "wires": [
+            [
+                "8ff99b32e60563a2",
+                "4f62867647a0535d",
+                "5750438487d2fd6c"
+            ]
+        ]
+    },
+    {
+        "id": "5750438487d2fd6c",
+        "type": "ui_gauge",
+        "z": "16657018583827b6",
+        "name": "pH",
+        "group": "534a7dd32e01c6ac",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "pH",
+        "label": "",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "14",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 430,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "4f62867647a0535d",
+        "type": "ui_chart",
+        "z": "16657018583827b6",
+        "name": "pH",
+        "group": "64b05b108fe3a610",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "label": "pH",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm",
+        "interpolate": "step",
+        "nodata": "",
+        "dot": false,
+        "ymin": "0",
+        "ymax": "14",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#e47311",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 430,
+        "y": 140,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "8ff99b32e60563a2",
+        "type": "function",
+        "z": "16657018583827b6",
+        "name": "Turn On LED",
+        "func": "var phValue = msg.payload;\n\nif (phValue >= 6.5 && phValue <= 8.5) {\n    // LED Verde\n    msg.payload = true;\n    msg.color = \"#00ff00\"; // Cor verde\n} else {\n    // LED Vermelho\n    msg.payload = false;\n    msg.color = \"#ff0000\"; // Cor vermelha\n}\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 450,
+        "y": 100,
+        "wires": [
+            [
+                "f9e528c0c957d0c4"
+            ]
+        ]
+    },
+    {
+        "id": "f9e528c0c957d0c4",
+        "type": "ui_led",
+        "z": "16657018583827b6",
+        "order": 3,
+        "group": "086264041b4dcc8e",
+        "width": "3",
+        "height": "3",
+        "label": "",
+        "labelPlacement": "left",
+        "labelAlignment": "center",
+        "colorForValue": [
+            {
+                "color": "#ff0000",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#008000",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": true,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "LED-PH",
+        "x": 680,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "9a28809ecae2952e",
+        "type": "ui_led",
+        "z": "16657018583827b6",
+        "order": 10,
+        "group": "086264041b4dcc8e",
+        "width": "3",
+        "height": "3",
+        "label": "",
+        "labelPlacement": "left",
+        "labelAlignment": "center",
+        "colorForValue": [
+            {
+                "color": "#ff0000",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#008000",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "LED-CLORO",
+        "x": 650,
+        "y": 300,
+        "wires": []
+    }
+]
